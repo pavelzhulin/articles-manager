@@ -2,10 +2,12 @@ import tkinter as tk
 import file_connection
 from tkinter import messagebox
 
+
 # Содержимое статей (названия и текст статей)
 articles = file_connection.get_articles()
 
 current_article = None
+
 
 # Функция для отображения выбранной статьи
 def show_article():
